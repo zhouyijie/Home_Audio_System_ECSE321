@@ -1,0 +1,118 @@
+<library id="1">
+  <artists id="2">
+    <artist id="3">
+      <artistName>Pink FLoyd</artistName>
+      <songs id="4"/>
+    </artist>
+    <artist id="5">
+      <artistName>Pink Floyd</artistName>
+      <songs id="6"/>
+    </artist>
+    <artist id="7">
+      <artistName>U2</artistName>
+      <songs id="8"/>
+    </artist>
+    <artist id="9">
+      <artistName>RedHotChilliPeppers</artistName>
+      <songs id="10"/>
+    </artist>
+  </artists>
+  <songs id="11">
+    <song id="12">
+      <songTitle>Money</songTitle>
+      <songDuration>9</songDuration>
+      <artist>Pink Floyd</artist>
+      <albums id="13"/>
+      <playlists id="14"/>
+      <artists id="15"/>
+    </song>
+    <song id="16">
+      <songTitle>Time</songTitle>
+      <songDuration>9</songDuration>
+      <artist>Pink Floyd</artist>
+      <albums id="17"/>
+      <playlists id="18"/>
+      <artists id="19"/>
+    </song>
+    <song id="20">
+      <songTitle>One</songTitle>
+      <songDuration>03</songDuration>
+      <artist>U2</artist>
+      <albums id="21"/>
+      <playlists id="22"/>
+      <artists id="23"/>
+    </song>
+    <song id="24">
+      <songTitle>Californication</songTitle>
+      <songDuration>1</songDuration>
+      <artist>RedHotChilliPeppers</artist>
+      <albums id="25"/>
+      <playlists id="26"/>
+      <artists id="27"/>
+    </song>
+    <song id="28">
+      <songTitle>Scar Tissue</songTitle>
+      <songDuration>1</songDuration>
+      <artist>RedHotChilliPeppers</artist>
+      <albums id="29"/>
+      <playlists id="30"/>
+      <artists id="31"/>
+    </song>
+  </songs>
+  <albums id="32">
+    <album id="33">
+      <albumGenre>Rock</albumGenre>
+      <releaseDate>1998-09-12</releaseDate>
+      <nameAlbum>Dark Side of the Moon</nameAlbum>
+      <songsArray id="34">
+        <song reference="16"/>
+      </songsArray>
+    </album>
+    <album id="35">
+      <albumGenre>Rock</albumGenre>
+      <releaseDate>1997-09-08</releaseDate>
+      <nameAlbum>AlbumCalifornication</nameAlbum>
+      <songsArray id="36">
+        <song reference="28"/>
+      </songsArray>
+    </album>
+    <album id="37">
+      <albumGenre>Rock</albumGenre>
+      <releaseDate>1998-09-09</releaseDate>
+      <nameAlbum>Cali</nameAlbum>
+      <songsArray id="38">
+        <song reference="24"/>
+        <song reference="28"/>
+        <song reference="24"/>
+        <song reference="28"/>
+      </songsArray>
+    </album>
+  </albums>
+  <playlists id="39">
+    <playlist id="40">
+      <playlistName>KKGood</playlistName>
+      <songs id="41"/>
+    </playlist>
+    <playlist id="42">
+      <playlistName>Lalala</playlistName>
+      <songs id="43"/>
+    </playlist>
+    <playlist id="44">
+      <playlistName>Kakaka</playlistName>
+      <songsArray id="45">
+        <song reference="16"/>
+        <song reference="28"/>
+      </songsArray>
+    </playlist>
+  </playlists>
+  <locations id="46">
+    <location id="47">
+      <locationName>Room</locationName>
+      <volume>0</volume>
+    </location>
+    <location id="48">
+      <locationName>Kitchen</locationName>
+      <volume>0</volume>
+    </location>
+  </locations>
+</library>
